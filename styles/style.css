@@ -299,6 +299,17 @@ ol {
   height: 103px;
 }
 
+.content__video-card-description {
+  margin-top: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16.2px;
+  -webkit-line-clamp: 4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .content__video-card-title {
   font-family: Oswald;
   font-size: 30px;
@@ -309,15 +320,4 @@ ol {
   text-decoration-skip-ink: none;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.content__video-card-description {
-  margin-top: 6px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 16.2px;
-  -webkit-line-clamp: 4;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
